@@ -25,8 +25,8 @@ This project was built using:
 - Google :) 
 
 ### Features
-📖 Multi-Page Layout using ReactRouter
-🎨 Styled with React-Bootstrap and CSS
+📖 Multi-Page Layout using ReactRouter<br/>
+🎨 Styled with React-Bootstrap and CSS<br/>
 📧 Included an 'contact me' section that will email me using nodemailer
 
 ### Getting Started
