@@ -1,0 +1,7 @@
+// As an experienced web developer, I have worked on a variety of projects that showcase my proficiency in React and my ability to deliver tangible results. Two of my recent projects include:
+
+// Parakeet Enthusiast Blog: The purpose of this project was to educate parakeet enthusiasts about proper care and different varieties of parakeets, as well as share experiences about breeding parakeets. Using React, ReactRouter, GoDaddy, GitHub, AWS, and Heroku, I created and maintained the project from start to finish. As a result, the blog attracted over 150k visitors from Mexico and other Latin American countries who were interested in learning more about the parakeet breeding hobby.
+
+// LED Screen Repair Services Website: The aim of this project was to showcase and offer LED screen repair services. Similar to the Parakeet Enthusiast Blog, I utilized React, ReactRouter, GoDaddy, GitHub, AWS, and Heroku to develop and maintain the project. Although I faced some challenges while setting up the nodemailer SMTP server, the website successfully helped a repair engineer offer his services and gain more clients.
+
+// Both of these projects demonstrate my ability to create functional and visually appealing websites while delivering tangible results for my clients. With my skills and expertise, I am confident in my ability to take on new challenges and deliver high-quality web development solutions.

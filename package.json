@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "concurrently": "^7.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.21"
+  },
+  "scripts": {
+    "start": "node ContactEmail.js",
+    "server": "nodemon Server/ContactEmail.js",
+    "client": "npm start --prefix Client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  }
+}
