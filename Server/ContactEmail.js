@@ -4,6 +4,12 @@ const router = express.Router();
 const cors = require("cors");
 const nodemailer = require("nodemailer");
 
+app.use(express.static(path.join(__dirname, "build")));
+
+app.get("/*", function (req, res) {
+    res.sendFile(path.join(__dirname, "build", "index.html"));
+});
+
 // Server used to send emails
 const app = express();
 app.use(cors());

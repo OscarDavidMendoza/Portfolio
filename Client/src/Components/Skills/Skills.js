@@ -4,7 +4,6 @@ import SkillText from "assets/data/SkillText";
 import { Col, Container, Row } from "react-bootstrap";
 // import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import switches from "assets/images/IMG_7999.webp";
 
 export const Skills = () => {
     // const responsive = {

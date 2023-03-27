@@ -10,7 +10,7 @@
             ],
             "@pages/*": [
                 "src/pages/*"
-            ],
+            ]
         }
     },
     "include": [

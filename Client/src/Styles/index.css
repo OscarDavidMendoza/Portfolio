@@ -376,6 +376,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   padding: 60px 50px;
   margin-top: -60px;
+  margin-bottom: -100px;
   z-index: 9999;
 }
 
@@ -597,7 +598,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .contact {
   background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-  padding: 60px 0 150px 0;
+  padding: 60px 0;
 }
 
 .contact img {
