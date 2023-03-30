@@ -1,0 +1,9 @@
+FROM node:alpine AS build
+WORKDIR /Client
+COPY package.json .
+RUN npm i
+COPY . .
+RUN npm run build
+
+FROM nginx
+COPY --from=build /Client/build /usr/share/nginx/html

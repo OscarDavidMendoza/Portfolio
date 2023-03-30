@@ -1,14 +1,9 @@
 require("dotenv").config();
 const express = require("express");
+const path = require("path");
 const router = express.Router();
 const cors = require("cors");
 const nodemailer = require("nodemailer");
-
-app.use(express.static(path.join(__dirname, "build")));
-
-app.get("/*", function (req, res) {
-    res.sendFile(path.join(__dirname, "build", "index.html"));
-});
 
 // Server used to send emails
 const app = express();
@@ -16,6 +11,12 @@ app.use(cors());
 app.use(express.json());
 app.use("/", router);
 app.listen(5000, () => console.log("Server Running"));
+
+app.use(express.static(path.join(__dirname, "build")));
+
+app.get("/*", function (req, res) {
+    res.sendFile(path.join(__dirname, "build", "index.html"));
+});
 
 var contactEmail = nodemailer.createTransport({
     host: "smtp.gmail.com",
